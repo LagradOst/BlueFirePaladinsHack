@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\mhyprot.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\service_utils.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\utils.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\win_utils.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\file_utils.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="Mhyprot\baseadress.cpp">
+      <Filter>Mhyprot</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Image.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\stb_image.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\mhyprot.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\nt.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\service_utils.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\utils.h">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\win_utils.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\log.h">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\logger.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\file_utils.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\raw_driver.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\baseadress.h">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="Mhyprot\readbase.hpp">
+      <Filter>Mhyprot</Filter>
+    </ClInclude>
+    <ClInclude Include="skCrypter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Paladins_sdk.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Paladins_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Unreal_classes.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Paladins_enums.hpp">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Image.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\stb_image.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7120ad04-ae0b-428e-9db8-e5debd1e8666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55d1cb7c-6ec4-4116-b86b-a79c80cd88dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mhyprot">
+      <UniqueIdentifier>{a6bc496b-7683-472f-9075-cab7da83704a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{caae5e3f-8a6a-4c43-8008-4fd938a84388}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{0cf05589-dc4d-476a-a4c1-aa0fbd420931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{19719a17-1dd9-4ced-9036-cd877871d86b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+</Project>
