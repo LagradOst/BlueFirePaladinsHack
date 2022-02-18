@@ -201,9 +201,9 @@ int main(int, char**)
 
 	// Create application window
 	//ImGui_ImplWin32_EnableDpiAwareness();
-	WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T(skCrypt("Settings")), NULL };
+	WNDCLASSEX wc = { sizeof(WNDCLASSEX), CS_CLASSDC, WndProc, 0L, 0L, GetModuleHandle(NULL), NULL, NULL, NULL, NULL, _T("Settings"), NULL };
 	::RegisterClassEx(&wc);
-	HWND hwnd = ::CreateWindow(wc.lpszClassName, _T(skCrypt("Settings")), WS_OVERLAPPEDWINDOW, 100, 100, windowWidth, windowHeight, NULL, NULL, wc.hInstance, NULL);
+	HWND hwnd = ::CreateWindow(wc.lpszClassName, _T("Settings"), WS_OVERLAPPEDWINDOW, 100, 100, windowWidth, windowHeight, NULL, NULL, wc.hInstance, NULL);
 
 	HICON hIcon = LoadIcon(wc.hInstance, MAKEINTRESOURCE(MAINICON));
 
@@ -213,6 +213,7 @@ int main(int, char**)
 	// Initialize Direct3D
 	if(!CreateDeviceD3D(hwnd))
 	{
+		printf("Failed to CreateDeviceD3D\n");
 		CleanupDeviceD3D();
 		::UnregisterClass(wc.lpszClassName, wc.hInstance);
 		return 1;

@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{38615e7b-2999-42db-a704-ed8e79b9a0b5}</ProjectGuid>
-    <RootNamespace>ValoTest</RootNamespace>
+    <RootNamespace>PaladinsHack</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <ProjectName>PaladinsHack</ProjectName>
   </PropertyGroup>
