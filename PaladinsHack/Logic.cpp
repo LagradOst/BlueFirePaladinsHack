@@ -347,7 +347,7 @@ void CallAimbot() {
 				}
 
 				FVector TargetVelocity = LockedPawn.GetVelocity();
-				float TravelTime = math::GetDistance(CurrentController.GetLocation(), TargetLocation) / speed;
+				float TravelTime = math::GetDistance(CurrentAcknowledgedPawn.GetLocation(), TargetLocation) / speed;
 				TargetLocation = {
 					(TargetLocation.X + TargetVelocity.X * TravelTime),
 					(TargetLocation.Y + TargetVelocity.Y * TravelTime),
