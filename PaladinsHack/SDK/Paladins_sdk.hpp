@@ -13128,7 +13128,7 @@ namespace off {
 		constexpr auto m_LocalPropValues = 0xa44; // float [0x92]
 		constexpr auto s_PropValuesRepResolution = 0xc8c; // float [0x92]
 		constexpr auto s_DefaultPropValues = 0xed4; // float [0x92]
-		constexpr auto r_fCachedMaxHealth = 0x112c; // float
+		constexpr auto r_fCachedMaxHealth = 0x1140; // float
 		constexpr auto m_fCachedGroundProximity = 0x1120; // float
 		constexpr auto m_fCachedGroundProximityTimestamp = 0x1124; // float
 		constexpr auto s_DebugPropertyMods = 0x1128; // TArray<FDebugPropertyMod>
