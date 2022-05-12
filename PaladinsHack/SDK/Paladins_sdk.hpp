@@ -13039,7 +13039,7 @@ namespace off {
 		constexpr auto r_bIsFrozen = 0x674; // uint32_t : 1
 		constexpr auto r_bIsCCImmune = 0x674; // uint32_t : 1
 		constexpr auto r_bIsRevealed = 0x674; // uint32_t : 1
-		constexpr auto r_bIsWallHacking = 0x674; // uint32_t : 1
+		constexpr auto r_bIsWallHacking = 0x678; // uint32_t : 1
 		constexpr auto r_bIsMarkedByDruid = 0x674; // uint32_t : 1
 		constexpr auto r_bIsMarkedByCorvus = 0x674; // uint32_t : 1
 		constexpr auto r_bIsInSelfKnockBack = 0x674; // uint32_t : 1
