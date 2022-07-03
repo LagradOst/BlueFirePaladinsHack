@@ -154,6 +154,7 @@
     <ClInclude Include="Logic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SDK\Paladins_structs.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
@@ -177,8 +178,23 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Icon.ico" />
+    <Image Include="res\img\check.png" />
+    <Image Include="res\img\fov.png" />
+    <Image Include="res\img\speed.png" />
+    <Image Include="res\img\speed2.png" />
+    <Image Include="res\img\vis.png" />
+    <Image Include="res\img\vis2.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\opensans.ttf" />
+    <Font Include="res\fonts\segoeuivf.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\img\speed.svg" />
+    <None Include="config.ini" />
+    <None Include="imgui.ini" />
   </ItemGroup>
 </Project>
