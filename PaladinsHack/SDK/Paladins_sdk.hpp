@@ -3,10 +3,10 @@
 // Generated 2022-01-26
 
 namespace off {
-	constexpr auto GNames = 0x0;
-	constexpr auto GObjects = 0x0;
-	constexpr auto Engine = 0x0; // 48 8B 0D ? ? ? ? 48 85 C9 0F 84 ? ? ? ? 48
-	constexpr auto DecryptionKey = 0x3ff;
+	constexpr auto GNames = 0x3805f7c;
+	constexpr auto GObjects = 0x3805f7c;
+	constexpr auto Engine = 0x381b530; // 48 8B 0D ? ? ? ? 48 85 C9 0F 84 ? ? ? ? 48
+	constexpr auto DecryptionKey = 0x7f;
 
 	namespace n_UUIComponent_DualButtonPanel { // : UUIComponent
 		constexpr auto m_pPanelRoot = 0x118; // ObjectProperty
@@ -12983,7 +12983,7 @@ namespace off {
 		constexpr auto r_bIsFlashBang = 0x66c; // uint32_t : 1
 		constexpr auto r_bIsBanished = 0x66c; // uint32_t : 1
 		constexpr auto m_bIsRewinding = 0x66c; // uint32_t : 1
-		constexpr auto r_bIsJumping = 0x66c; // uint32_t : 1
+		constexpr auto r_bIsJumping = 0x670; // uint32_t : 1
 		constexpr auto r_bIsShortJump = 0x66c; // uint32_t : 1
 		constexpr auto m_bIsLanding = 0x66c; // uint32_t : 1
 		constexpr auto m_bAllowHigherWallJumping = 0x66c; // uint32_t : 1
@@ -13497,7 +13497,7 @@ namespace off {
 		constexpr auto RArmBoneNames = 0x2bd0; // TArray<FName>
 		constexpr auto HeadBoneNames = 0x2be0; // TArray<FName>
 		constexpr auto m_HeadShotBoneName = 0x2bf0; // FName
-		constexpr auto m_fMountScaleOverride = 0x2bf8; // float
+		constexpr auto m_fMountScaleOverride = 0x2c1c; // float
 		constexpr auto m_LandCameraShake = 0x2bfc; // ObjectProperty
 		constexpr auto m_JumpCameraShake = 0x2c04; // ObjectProperty
 		constexpr auto m_f1PTransitionFireDelay = 0x2c0c; // float

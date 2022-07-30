@@ -23,7 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{38615e7b-2999-42db-a704-ed8e79b9a0b5}</ProjectGuid>
     <RootNamespace>PaladinsHack</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>PaladinsHack</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -200,6 +200,7 @@
     <ClInclude Include="SDK\Paladins_classes.hpp" />
     <ClInclude Include="SDK\Paladins_enums.hpp" />
     <ClInclude Include="SDK\Paladins_sdk.hpp" />
+    <ClInclude Include="SDK\Paladins_structs.hpp" />
     <ClInclude Include="SDK\Unreal_classes.hpp" />
     <ClInclude Include="settings.h" />
     <ClInclude Include="skCrypter.h" />
@@ -209,9 +210,24 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Icon.ico" />
+    <Image Include="res\img\check.png" />
+    <Image Include="res\img\fov.png" />
+    <Image Include="res\img\speed.png" />
+    <Image Include="res\img\speed2.png" />
+    <Image Include="res\img\vis.png" />
+    <Image Include="res\img\vis2.png" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\opensans.ttf" />
+    <Font Include="res\fonts\segoeuivf.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.ini" />
+    <None Include="imgui.ini" />
+    <None Include="res\img\speed.svg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
