@@ -1,4 +1,4 @@
-# BlueFirePaladinsHack
+# BlueFirePaladinsHack [Outdated]
 External hack for Paladins using Mhyprot to read and write memory and nvidia hijack for overlay
 
 https://github.com/leeza007/evil-mhyprot-cli
